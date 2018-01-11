@@ -1,7 +1,7 @@
 # Installation
 
 ```bash
-npm install --save-dev vue-top
+npm install --save vue-top
 ```
 
 ## Use with Single File Component
@@ -21,6 +21,7 @@ import VueTop from 'vue-top';
 
 export default {
   components: {
+    ... ,
     VueTop,
   },
 };
@@ -34,7 +35,7 @@ export default {
 <script type="text/javascript" src="unpkg.com/vue-top@1.0.0/dist/vue-top.min.js"></script>
 ```
 
-### Install plugin to Vue
+### Install as plugin
 
 ```js
 Vue.use(VueTop);
@@ -44,7 +45,7 @@ Vue.use(VueTop);
 
 ```html
 <vue-top>
-  <!-- Your HTML CODE (Normally a image or fontawesome icon-->
+  <!-- Your HTML CODE -->
 </vue-top>
 ```
 
@@ -64,9 +65,9 @@ Vue.use(VueTop);
 
 ## Properties
 
-| Option      | Type   | Default | Description                                             |
-| ----------- | ------ | ------- | ------------------------------------------------------- |
-| bottom      | String | 30px    | CSS style property , distance from right of broser edge |
-| right       | String | 30px    | CSS style property , distance from right of broser edge |
-| speed       | Number | 500     | Scolling speed , the smaller the faster                 |
-| customStyle | Object | Null    | Define your own style on the component                  |
+| Option      | Type   | Default | Description                                                                                        |
+| ----------- | ------ | ------- | -------------------------------------------------------------------------------------------------- |
+| bottom      | String | 30px    | This property will convert to CSS style property which is the distance from bottom of browser edge |
+| right       | String | 30px    | This property will convert to CSS style property which is the distance from right of browser edge  |
+| speed       | Number | 500     | Scolling speed , the smaller the faster                                                            |
+| customStyle | Object | Null    | Define your own style to the component                                                             |
