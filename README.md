@@ -1,3 +1,7 @@
+# vue-top
+
+> A simple Vue.js component to scroll your webpage to the top
+
 # Installation
 
 ```bash
